@@ -1,0 +1,4 @@
+/.direnv
+/.pytest_cache
+/data
+__pycache__

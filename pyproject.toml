@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fri-shift"
+version = "0.1.0"
+description = "A tool for generating fair and balanced questioner-presenter pairings"
+authors = ["Takamatsu Naoki <Takamatsu0331@outlook.jp>"]
+readme = "README.md"
+license = "MIT"
+
+[project.urls]
+Repository = "https://github.com/Takamatsu-Naoki/fri-shift"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
