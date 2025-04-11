@@ -1,4 +1,5 @@
 /.direnv
 /.pytest_cache
-/data
+/data/group_assignment.csv
+/data/member_table.csv
 __pycache__

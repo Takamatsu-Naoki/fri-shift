@@ -40,9 +40,15 @@ poetry install
 
 ## Usage
 
-1. Prepare your input CSV files:
-   - `member_table.csv`: Member IDs and names
-   - `group_assignment.csv`: Group names and member lists
+1. Prepare your input CSV files inside a `data/` directory:
+   - `data/member_table.csv`: Member IDs and names
+   - `data/group_assignment.csv`: Group names and member lists
+
+   You can start by copying and editing the provided examples:
+   ```bash
+   cp data/member_table.example.csv data/member_table.csv
+   cp data/group_assignment.example.csv data/group_assignment.csv
+   ```
 
 2. Run the program:
 ```bash
@@ -53,7 +59,7 @@ poetry run python ./src/main.py
 
 ## Example Input
 
-### `member_table.csv`
+### `data/member_table.csv`
 ```csv
 member_id,name
 0,John Smith
@@ -65,7 +71,7 @@ member_id,name
 6,Laura Wilson
 ```
 
-### `group_assignment.csv`
+### `data/group_assignment.csv`
 ```csv
 group_id,member_list
 A,"[2, 3]"
